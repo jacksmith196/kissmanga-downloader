@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - http://kissmanga.com/Manga/Shingeki-no-Kyojin
+      - https://kissmanga.com/Manga/Domestic-na-Kanojo/Chapter-127?id=404008
   selenium:
     image: "elgalu/selenium:latest"
     ports:
